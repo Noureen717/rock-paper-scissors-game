@@ -61,3 +61,22 @@ img {
     border-radius: 1rem;
     
 }
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+  .choices {
+    display: flex;
+    flex-direction: column;   /* stack vertically */
+    align-items: center;
+    gap: 1rem;
+  }
+  .choice img {
+    width: 40vw;
+    max-width: 120px;
+  }
+}
